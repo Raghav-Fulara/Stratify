@@ -1,0 +1,11 @@
+topic,assumption,application
+Distance,"Haversine distance from fulfilling store to jittered delivery point; Earth radius 6,371.0088 km.",Applied order by order.
+Breach,breached = actual_delivery_min > promised_delivery_min; promise is 10 minutes for every order.,No rounding of actual time.
+Cost-to-serve,₹22 rider + ₹7/km one-way + ₹8 packaging + ₹30 per breach + store monthly (rent + fixed cost) / store orders that month.,Fixed cost allocated separately for April and May.
+Serviceable radius,First 0.5-km distance ring with breach rate >20%; radius set to ring upper edge.,Orders beyond radius count outside catchment.
+New-site fixed cost,Candidate site fixed cost is imputed as the city median existing monthly fixed cost; rent remains the quoted candidate rent.,Imputation is conservative and flagged for lease diligence.
+New-site radius,Candidate radius is city median observed radius among existing stores.,Used only for coverage estimate.
+After-network assignment,Each order is assigned to the nearest active facility in its city; no capacity constraint is assumed.,Candidate location is evaluated using the jittered order points.
+After-network breach,City-specific logistic model of observed breach on distance only; expected ₹30 penalty uses predicted breach probability.,"This is a run-rate estimate, not observed future actuals."
+Capex treatment,Fit-out is reported separately and payback is based on monthly run-rate savings; it is not inserted into the brief’s per-order cost formula.,"Simple payback excludes growth, tax, financing and lease exit costs."
+Optimization guardrail,"Every non-empty existing/candidate facility subset is enumerated at order level. For the balanced recommendation, expected breach and coverage must each improve by at least 2 percentage points in each city; then minimize expected C2S, with 36-month capex amortization as tie-breaker.",This makes the multi-objective choice explicit because the brief supplies no single numeric objective.

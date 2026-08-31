@@ -1,0 +1,3 @@
+city,scenario,orders,active_facilities,new_sites,closures,avg_cost_to_serve,variable_cost_per_order,fixed_cost_per_order,avg_distance_km,breach_rate,on_time_rate,coverage_rate,monthly_fixed_total_inr,fitout_total_inr
+All cities,Current baseline,186156,18,0,PUN-02 + PUN-07,71.743264,52.878441,18.864823,2.211470,0.246605,0.753395,0.726842,1755900.000000,0.000000
+All cities,Recommended network,186156,19,3,PUN-02 + PUN-07,69.777103,48.953708,20.823395,1.926817,0.182200,0.817800,0.805652,1938200.000000,4470000.000000

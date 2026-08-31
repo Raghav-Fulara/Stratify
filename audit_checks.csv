@@ -1,0 +1,37 @@
+check,status,detail
+raw order row count,PASS,186156
+clean order row count,PASS,186156
+order ids unique,PASS,"raw=True, clean=True"
+date range,PASS,2026-04-01 00:14:29–2026-05-31 23:59:52
+source dates in brief,PASS,2026-04-01–2026-05-31
+all stores joined,PASS,set()
+all pincodes joined,PASS,set()
+candidate city set,PASS,"{'Jaipur', 'Pune', 'Hyderabad'}"
+no missing key numeric,PASS,"{'distance_km': 0, 'cost_to_serve_inr': 0, 'fixed_cost_per_order_inr': 0, 'serviceable_radius_km': 0}"
+cost formula,PASS,1.0000000258969521e-06
+breach definition,PASS,0
+haversine distance,PASS,4.999925765636348e-07
+monthly fixed allocation,PASS,4.930609538433828e-07
+serviceable radius,PASS,{}
+portfolio metrics rows,PASS,"[{'scenario': 'Current baseline'}, {'scenario': 'Recommended network'}]"
+after assignment row count,PASS,186156
+after order ids unique,PASS,0
+after nearest assignment sample,PASS,"[0, 0, 0]"
+report opens,PASS,"(56, 7)"
+report no placeholders,PASS,placeholder scan
+deck is 8-10 slides,PASS,9
+deck no placeholders,PASS,placeholder scan
+artifact final_analysis.ipynb,PASS,56309
+artifact dark_matter_analysis.py,PASS,66351
+artifact order_level_cleaned.csv,PASS,42759623
+artifact after_order_assignment.csv,PASS,16608003
+artifact candidate_site_scorecard.csv,PASS,2004
+artifact serviceable_radii.csv,PASS,1219
+artifact before_after_city_metrics.csv,PASS,1003
+artifact before_after_portfolio_metrics.csv,PASS,518
+image demand_density.png,PASS,266706
+image catchment_maps.png,PASS,785160
+image breach_by_ring.png,PASS,137988
+image before_after_impact.png,PASS,110997
+exhaustive scenarios count,PASS,7165
+deliverable text no model references,PASS,scan

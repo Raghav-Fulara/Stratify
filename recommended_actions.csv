@@ -1,0 +1,6 @@
+id,city,action,rationale
+CS-01,Pune,OPEN + relocate PUN-07,"411057; 2,650 sq ft; 8,965 orders in two months at the pincode; current pincode breach 31.7%; captures the western high-risk pocket."
+PUN-07,Pune,RELOCATE / CLOSE CURRENT BOX,"Replace with CS-01; 20,152 orders, 31.4% breach and 3.5 km radius show the existing box is serving a long tail."
+PUN-02,Pune,CLOSE,"2,736 orders at the same 411038 catchment as PUN-01; fully loaded C2S ₹114.33/order, the highest in the network."
+CS-07,Hyderabad,OPEN,"500049; 2,750 sq ft; 7,946 orders; current pincode breach 49.3%; directly removes the largest high-risk northern pocket."
+CS-11,Jaipur,OPEN / PILOT,"302012; 2,500 sq ft; 4,485 orders; current pincode breach 50.7%; restores coverage in the largest Jaipur uncovered demand pocket."

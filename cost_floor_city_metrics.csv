@@ -1,0 +1,4 @@
+city,scenario,orders,active_facilities,new_sites,closures,avg_cost_to_serve,variable_cost_per_order,fixed_cost_per_order,avg_distance_km,breach_rate,on_time_rate,coverage_rate,monthly_fixed_total_inr,fitout_total_inr
+Pune,Cost-floor option,79047,6,1,PUN-02|PUN-07,66.33521618,49.59580798,16.73940820,2.02715545,0.18019066,0.81980934,0.82958240,661600.00000000,1650000.00000000
+Hyderabad,Cost-floor option,68583,6,1,HYD-01,70.55501095,51.23535448,19.31965647,2.06796034,0.22532107,0.77467893,0.67232405,662500.00000000,1580000.00000000
+Jaipur,Cost-floor option,38526,5,0,,74.72348602,54.51375752,20.20972850,2.27457711,0.28639059,0.71360941,0.72551005,389300.00000000,0.00000000

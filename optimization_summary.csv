@@ -1,0 +1,4 @@
+city,enumerated_subsets,valid_scenarios,guardrail_scenarios,selected_network,selected_rank_by_cost,selected_rank_by_economic_cost,selected_avg_cost,selected_expected_breach,selected_coverage,selected_fitout,selected_economic_cost_36mo,best_cost_feasible,best_cost_feasible_value
+Hyderabad,2047,2047,325,HYD-01|HYD-02|HYD-03|HYD-04|HYD-05|HYD-06|CS-07,1,1,70.95965320,0.17490973,0.76712888,1580000.00000000,72.23952981,HYD-01|HYD-02|HYD-03|HYD-04|HYD-05|HYD-06|CS-07,70.95965320
+Jaipur,1023,1023,153,JAI-01|JAI-02|JAI-03|JAI-04|JAI-05|CS-11,1,1,74.73396460,0.19929871,0.82513108,1240000.00000000,76.52207883,JAI-01|JAI-02|JAI-03|JAI-04|JAI-05|CS-11,74.73396460
+Pune,4095,4095,417,PUN-01|PUN-03|PUN-04|PUN-05|PUN-06|CS-01,1,1,66.33521617,0.18019067,0.82958240,1650000.00000000,67.49486381,PUN-01|PUN-03|PUN-04|PUN-05|PUN-06|CS-01,66.33521617
